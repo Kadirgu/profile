@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(113, 136, 74);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100; /* if you want the light version */
+  font-size: 10px;
+  text-align: center;
+}
+
+#profile-pic {
+  border-radius: 80%;
+  align-self:center
+}
+
+h1 {
+  font-size: 40px;
+  align-self:center
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  width: 50px;
+}
+
+a {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  border:rgba(94, 119, 207, 0.552);
+  width: 700px;
+  height: auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  background-color: antiquewhite;
+  margin: 20px;
+  border: 5px solid rgba(5, 5, 5, 0.552);
+  border-radius: 20px;
+  padding: 24px;
+  width: auto;
+  height: auto;
+}
+
+#btn:hover {
+  background-color: aquamarine;
+  color: black;
+  border-radius: 70%;
+}
+
+#btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
